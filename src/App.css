@@ -12,6 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.feed-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +29,47 @@
   color: white;
 }
 
+.progress{
+  height: 3rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-link {
   color: #61dafb;
+}
+.video-styles{
+  height:86vh;
+  /* margin-bottom: 2rem; */
+  margin-top: 2rem;
+  border: 1px solid black;
+}
+
+.loader{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.uploadImage{
+  margin-top: 2rem;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+  
   to {
     transform: rotate(360deg);
   }
+}
+
+.main{
+  margin-top: 5rem;
+}
+
+.profile{
+  margin-left: 5px;
 }

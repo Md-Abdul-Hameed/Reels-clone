@@ -49,7 +49,8 @@ function Signup(props){
                     userid : uid,
                     userName,
                     createdAt : database.getUserTimeStamp(),
-                    profileUrl : downloadUrl
+                    profileUrl : downloadUrl,
+                    postsIds:[]
                 })
                 setLoader(false)
                 props.history.push("/login")

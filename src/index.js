@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Material from "./Material"
+import Intersectiondemo from './Intersectiondemo';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Intersectiondemo></Intersectiondemo> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
